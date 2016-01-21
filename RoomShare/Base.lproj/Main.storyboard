@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RoomShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jCe-UQ-r8K">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="MAV-Hf-L69">
+                                <rect key="frame" x="239" y="80" width="123" height="72"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ib3-af-aoc">
+                                <rect key="frame" x="31" y="198" width="540" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fVJ-u8-vgx"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CTw-dg-Up6">
+                                <rect key="frame" x="31" y="261" width="540" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DrX-We-J4c"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF1-UH-MIA">
+                                <rect key="frame" x="328" y="331" width="243" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.2643371135" blue="0.36836006939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SIGN UP"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRg-t3-wNt">
+                                <rect key="frame" x="30" y="411" width="540" height="40"/>
+                                <state key="normal" backgroundImage="loginFb"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fr2-it-sVH">
+                                <rect key="frame" x="30" y="491" width="540" height="40"/>
+                                <state key="normal" backgroundImage="loginTwitter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-99-Vjx">
+                                <rect key="frame" x="31" y="331" width="243" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.26433711354438549" blue="0.36836006942761512" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="LOGIN"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HRg-t3-wNt" firstAttribute="top" secondItem="dQB-99-Vjx" secondAttribute="bottom" constant="40" id="1df-SL-Oxe"/>
+                            <constraint firstItem="dQB-99-Vjx" firstAttribute="width" secondItem="CTw-dg-Up6" secondAttribute="width" multiplier="0.45" id="3dh-az-Lxa"/>
+                            <constraint firstItem="MAV-Hf-L69" firstAttribute="centerX" secondItem="jCe-UQ-r8K" secondAttribute="centerX" id="4Nq-6r-ZkS"/>
+                            <constraint firstItem="HRg-t3-wNt" firstAttribute="width" secondItem="CTw-dg-Up6" secondAttribute="width" id="5f2-za-P3H"/>
+                            <constraint firstItem="PF1-UH-MIA" firstAttribute="height" secondItem="dQB-99-Vjx" secondAttribute="height" id="65z-0K-NLB"/>
+                            <constraint firstItem="ib3-af-aoc" firstAttribute="width" secondItem="jCe-UQ-r8K" secondAttribute="width" multiplier="0.9" id="7ml-pp-CJp"/>
+                            <constraint firstItem="fr2-it-sVH" firstAttribute="width" secondItem="HRg-t3-wNt" secondAttribute="width" id="844-b3-ohi"/>
+                            <constraint firstItem="CTw-dg-Up6" firstAttribute="centerX" secondItem="ib3-af-aoc" secondAttribute="centerX" id="BU1-vu-8Bm"/>
+                            <constraint firstItem="jCe-UQ-r8K" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Bjz-qM-GdV"/>
+                            <constraint firstItem="CTw-dg-Up6" firstAttribute="height" secondItem="ib3-af-aoc" secondAttribute="height" id="GR1-vh-YdN"/>
+                            <constraint firstItem="dQB-99-Vjx" firstAttribute="height" secondItem="CTw-dg-Up6" secondAttribute="height" id="HMZ-3I-JzN"/>
+                            <constraint firstItem="PF1-UH-MIA" firstAttribute="trailing" secondItem="CTw-dg-Up6" secondAttribute="trailing" id="Imo-81-Bhg"/>
+                            <constraint firstItem="jCe-UQ-r8K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ksc-VN-u3k"/>
+                            <constraint firstItem="ib3-af-aoc" firstAttribute="top" secondItem="MAV-Hf-L69" secondAttribute="bottom" multiplier="1.3" id="Oo7-pt-s86"/>
+                            <constraint firstItem="PF1-UH-MIA" firstAttribute="width" secondItem="dQB-99-Vjx" secondAttribute="width" id="PTz-0E-FN0"/>
+                            <constraint firstItem="dQB-99-Vjx" firstAttribute="top" secondItem="CTw-dg-Up6" secondAttribute="bottom" multiplier="1.1" id="SsM-Nv-fTj"/>
+                            <constraint firstItem="fr2-it-sVH" firstAttribute="top" secondItem="HRg-t3-wNt" secondAttribute="bottom" constant="40" id="TJa-9t-Atr"/>
+                            <constraint firstItem="jCe-UQ-r8K" firstAttribute="top" secondItem="MAV-Hf-L69" secondAttribute="bottom" id="Vn4-Hf-11V"/>
+                            <constraint firstItem="CTw-dg-Up6" firstAttribute="top" secondItem="ib3-af-aoc" secondAttribute="bottom" multiplier="1.1" id="aGN-AG-UbS"/>
+                            <constraint firstItem="MAV-Hf-L69" firstAttribute="top" secondItem="jCe-UQ-r8K" secondAttribute="topMargin" multiplier="10" id="d1H-2l-h0i"/>
+                            <constraint firstItem="CTw-dg-Up6" firstAttribute="width" secondItem="ib3-af-aoc" secondAttribute="width" id="hXz-lu-Qsk"/>
+                            <constraint firstItem="ib3-af-aoc" firstAttribute="centerX" secondItem="MAV-Hf-L69" secondAttribute="centerX" id="jIi-AA-U8r"/>
+                            <constraint firstItem="jCe-UQ-r8K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mdL-fS-IN3"/>
+                            <constraint firstItem="dQB-99-Vjx" firstAttribute="leading" secondItem="CTw-dg-Up6" secondAttribute="leading" id="nfG-Fb-U00"/>
+                            <constraint firstItem="fr2-it-sVH" firstAttribute="height" secondItem="HRg-t3-wNt" secondAttribute="height" id="nuS-aU-dDo"/>
+                            <constraint firstItem="PF1-UH-MIA" firstAttribute="centerY" secondItem="dQB-99-Vjx" secondAttribute="centerY" id="pRO-oz-aHQ"/>
+                            <constraint firstItem="HRg-t3-wNt" firstAttribute="height" secondItem="CTw-dg-Up6" secondAttribute="height" id="s12-JL-v00"/>
+                            <constraint firstItem="jCe-UQ-r8K" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="wnR-hH-81X"/>
+                            <constraint firstItem="HRg-t3-wNt" firstAttribute="centerX" secondItem="jCe-UQ-r8K" secondAttribute="centerX" id="wrh-0d-MH6"/>
+                            <constraint firstItem="fr2-it-sVH" firstAttribute="centerX" secondItem="HRg-t3-wNt" secondAttribute="centerX" id="yYX-rs-9m7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Vn4-Hf-11V"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homeIcon" width="123" height="72"/>
+        <image name="loginFb" width="140" height="28"/>
+        <image name="loginTwitter" width="139" height="27"/>
+    </resources>
+</document>

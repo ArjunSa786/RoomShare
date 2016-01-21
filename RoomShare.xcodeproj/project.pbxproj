@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85274F71C50A78A00522847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85274F61C50A78A00522847 /* AppDelegate.swift */; };
+		F85274F91C50A78A00522847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85274F81C50A78A00522847 /* ViewController.swift */; };
+		F85274FC1C50A78A00522847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85274FA1C50A78A00522847 /* Main.storyboard */; };
+		F85274FE1C50A78A00522847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85274FD1C50A78A00522847 /* Assets.xcassets */; };
+		F85275011C50A78A00522847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85274FF1C50A78A00522847 /* LaunchScreen.storyboard */; };
+		F852750C1C50A78A00522847 /* RoomShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852750B1C50A78A00522847 /* RoomShareTests.swift */; };
+		F85275171C50A78A00522847 /* RoomShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85275161C50A78A00522847 /* RoomShareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85275081C50A78A00522847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85274EB1C50A78A00522847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85274F21C50A78A00522847;
+			remoteInfo = RoomShare;
+		};
+		F85275131C50A78A00522847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85274EB1C50A78A00522847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85274F21C50A78A00522847;
+			remoteInfo = RoomShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85274F31C50A78A00522847 /* RoomShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85274F61C50A78A00522847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F85274F81C50A78A00522847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F85274FB1C50A78A00522847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85274FD1C50A78A00522847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85275001C50A78A00522847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85275021C50A78A00522847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85275071C50A78A00522847 /* RoomShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F852750B1C50A78A00522847 /* RoomShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomShareTests.swift; sourceTree = "<group>"; };
+		F852750D1C50A78A00522847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85275121C50A78A00522847 /* RoomShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85275161C50A78A00522847 /* RoomShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomShareUITests.swift; sourceTree = "<group>"; };
+		F85275181C50A78A00522847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85274F01C50A78A00522847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85275041C50A78A00522847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F852750F1C50A78A00522847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85274EA1C50A78A00522847 = {
+			isa = PBXGroup;
+			children = (
+				F85274F51C50A78A00522847 /* RoomShare */,
+				F852750A1C50A78A00522847 /* RoomShareTests */,
+				F85275151C50A78A00522847 /* RoomShareUITests */,
+				F85274F41C50A78A00522847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85274F41C50A78A00522847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85274F31C50A78A00522847 /* RoomShare.app */,
+				F85275071C50A78A00522847 /* RoomShareTests.xctest */,
+				F85275121C50A78A00522847 /* RoomShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85274F51C50A78A00522847 /* RoomShare */ = {
+			isa = PBXGroup;
+			children = (
+				F85274F61C50A78A00522847 /* AppDelegate.swift */,
+				F85274F81C50A78A00522847 /* ViewController.swift */,
+				F85274FA1C50A78A00522847 /* Main.storyboard */,
+				F85274FD1C50A78A00522847 /* Assets.xcassets */,
+				F85274FF1C50A78A00522847 /* LaunchScreen.storyboard */,
+				F85275021C50A78A00522847 /* Info.plist */,
+			);
+			path = RoomShare;
+			sourceTree = "<group>";
+		};
+		F852750A1C50A78A00522847 /* RoomShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F852750B1C50A78A00522847 /* RoomShareTests.swift */,
+				F852750D1C50A78A00522847 /* Info.plist */,
+			);
+			path = RoomShareTests;
+			sourceTree = "<group>";
+		};
+		F85275151C50A78A00522847 /* RoomShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F85275161C50A78A00522847 /* RoomShareUITests.swift */,
+				F85275181C50A78A00522847 /* Info.plist */,
+			);
+			path = RoomShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85274F21C50A78A00522847 /* RoomShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F852751B1C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShare" */;
+			buildPhases = (
+				F85274EF1C50A78A00522847 /* Sources */,
+				F85274F01C50A78A00522847 /* Frameworks */,
+				F85274F11C50A78A00522847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomShare;
+			productName = RoomShare;
+			productReference = F85274F31C50A78A00522847 /* RoomShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85275061C50A78A00522847 /* RoomShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F852751E1C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShareTests" */;
+			buildPhases = (
+				F85275031C50A78A00522847 /* Sources */,
+				F85275041C50A78A00522847 /* Frameworks */,
+				F85275051C50A78A00522847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85275091C50A78A00522847 /* PBXTargetDependency */,
+			);
+			name = RoomShareTests;
+			productName = RoomShareTests;
+			productReference = F85275071C50A78A00522847 /* RoomShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85275111C50A78A00522847 /* RoomShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85275211C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShareUITests" */;
+			buildPhases = (
+				F852750E1C50A78A00522847 /* Sources */,
+				F852750F1C50A78A00522847 /* Frameworks */,
+				F85275101C50A78A00522847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85275141C50A78A00522847 /* PBXTargetDependency */,
+			);
+			name = RoomShareUITests;
+			productName = RoomShareUITests;
+			productReference = F85275121C50A78A00522847 /* RoomShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85274EB1C50A78A00522847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BrillMindz;
+				TargetAttributes = {
+					F85274F21C50A78A00522847 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F85275061C50A78A00522847 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F85274F21C50A78A00522847;
+					};
+					F85275111C50A78A00522847 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F85274F21C50A78A00522847;
+					};
+				};
+			};
+			buildConfigurationList = F85274EE1C50A78A00522847 /* Build configuration list for PBXProject "RoomShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85274EA1C50A78A00522847;
+			productRefGroup = F85274F41C50A78A00522847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85274F21C50A78A00522847 /* RoomShare */,
+				F85275061C50A78A00522847 /* RoomShareTests */,
+				F85275111C50A78A00522847 /* RoomShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85274F11C50A78A00522847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85275011C50A78A00522847 /* LaunchScreen.storyboard in Resources */,
+				F85274FE1C50A78A00522847 /* Assets.xcassets in Resources */,
+				F85274FC1C50A78A00522847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85275051C50A78A00522847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85275101C50A78A00522847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85274EF1C50A78A00522847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85274F91C50A78A00522847 /* ViewController.swift in Sources */,
+				F85274F71C50A78A00522847 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85275031C50A78A00522847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F852750C1C50A78A00522847 /* RoomShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F852750E1C50A78A00522847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85275171C50A78A00522847 /* RoomShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85275091C50A78A00522847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85274F21C50A78A00522847 /* RoomShare */;
+			targetProxy = F85275081C50A78A00522847 /* PBXContainerItemProxy */;
+		};
+		F85275141C50A78A00522847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85274F21C50A78A00522847 /* RoomShare */;
+			targetProxy = F85275131C50A78A00522847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85274FA1C50A78A00522847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85274FB1C50A78A00522847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85274FF1C50A78A00522847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85275001C50A78A00522847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85275191C50A78A00522847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F852751A1C50A78A00522847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F852751C1C50A78B00522847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F852751D1C50A78B00522847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F852751F1C50A78B00522847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomShare.app/RoomShare";
+			};
+			name = Debug;
+		};
+		F85275201C50A78B00522847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomShare.app/RoomShare";
+			};
+			name = Release;
+		};
+		F85275221C50A78B00522847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F85275231C50A78B00522847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrillMindz.RoomShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85274EE1C50A78A00522847 /* Build configuration list for PBXProject "RoomShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85275191C50A78A00522847 /* Debug */,
+				F852751A1C50A78A00522847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F852751B1C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F852751C1C50A78B00522847 /* Debug */,
+				F852751D1C50A78B00522847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F852751E1C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F852751F1C50A78B00522847 /* Debug */,
+				F85275201C50A78B00522847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F85275211C50A78B00522847 /* Build configuration list for PBXNativeTarget "RoomShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85275221C50A78B00522847 /* Debug */,
+				F85275231C50A78B00522847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85274EB1C50A78A00522847 /* Project object */;
+}
